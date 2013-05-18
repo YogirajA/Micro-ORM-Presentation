@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Micro-ORMs by Yogiraj Aradhye</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+
+<body class="impress-not-supported">
+
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+
+<div id="impress">
+
+    <div class="step slide" data-x="-1000" data-y="-1500">
+        <q style="text-align:center" ><b>Micro-ORMs</b>  </q>
+        <p style="text-align:center" > (object relational mappers) </p>
+        <q style="text-align:center" >    by  </q>
+        <q style="text-align:center" > <a href ="http://aradhye.com">Yogiraj Aradhye</a></q>
+    </div>
+    
+    <div class="step slide" data-x="0" data-y="-1500">
+        <q>About me</q> <br />
+        <p>Sr. Developer at <a href="http://www.clarusmarketing.com/">Clarus Marketing Group </a></p> <br />
+        <p>Blog: <a href="http://aradhye.com">aradhye.com</a></p> <br />
+        <p>Twitter: <a href="https://twitter.com/y09i">@y09i</a></p><br />
+    </div>
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <br />
+        <q style="text-align:center" >Purpose </q>
+    </div>
+
+    <div class="step slide" data-x="2000" data-y="-1500">
+        <q>Why should an ORM be doing? </q>
+        <q>Why should you care? </q>
+        <q>What is wrong with EF? </q>
+    </div>
+    
+    <div class="step slide" data-x="3000" data-y="-1500">
+        <p><strong> Trouble! </strong></p> <br />
+        <p>Bloated</p><br/>
+        <p>Easy to create Select N+1 </p><br/>
+        <p>Performance Issues</p><br/>
+        <p>Hard to control generated SQL </p><br/>
+        <p>Hard to debug</p><br/>
+        <p>Leaky abstractions</p><br/>
+        <p>Long XML management </p><br/>
+        <p><a href="http://aradhye.com/micro-orm-why-should-you-care">Read detailed post</a></p>
+        <!--<span>some image</span>-->
+    </div>
+
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="2">
+        <span>The community give us</span>
+        <h2>Micro-ORMs<sup>....</sup></h2>
+        <!--<span class="footnote"><sup>*</sup> no rhyme intended</span>-->
+    </div>
+    <!--
+        
+        This element introduces rotation.
+        
+        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
+        element should be rotated by 90 degrees clockwise.
+        
+    -->
+    <div id="its" class="step" data-x="850" data-y="4000" data-rotate="90" data-scale="5">
+        <p>Small, <strong>fast</strong> and easy to use! <br/>
+        "All that complexity is resolving to <strong>simplicity</strong>" - <a href="https://twitter.com/robconery">Rob Conery</a></p>
+    </div>
+
+    <div class="step slide" data-x="5000" data-y="-1500">
+        <q><a href="https://code.google.com/p/dapper-dot-net/">Dapper</a></q><br/>
+        <p>by Sam Saffron and Marc Gravell</p><br/>
+        <p>Used by StackOverflow</p><br/>
+        <p>Arguably the fastest ORM!</p><br/>
+        <p>Supports: SqlServer, ORACLE, POstGreSQL, SQLCE</p><br/>
+        <p>Works on Mono</p><br/>
+        <p>Test Drive it..</p>
+    </div>
+    <div class="step slide" data-x="6000" data-y="-1500">
+        <q><a href="https://code.google.com/p/dapper-dot-net/">Dapper Limitations</a></q><br/>
+        <p>Connection management</p><br/>
+        <p>Very basic..needs extensions</p><br />
+    </div>
+    <div class="step slide" data-x="7000" data-y="-1500">
+        <q><a href="http://www.toptensoftware.com/petapoco/">PetaPoco</a></q><br/>
+        <p>Inspired by Massive,Dapper,Subsonic, ActiveRecord</p><br/>
+        <p>Performance gets close to Dapper</p><br/>
+        <p>Supports: SqlServer , SQLCE, MySQL, PostGreSQL</p><br/>
+        <p>T4 comes with it for POCOs</p><br/>
+        <p>Test Drive it..</p><br />
+        <p><a href="http://www.toptensoftware.com/petapoco/">Explore more..</a></p><br/>
+    </div>
+     <div class="step slide" data-x="8000" data-y="-1500">
+        <q><a href="http://www.toptensoftware.com/petapoco/">PetaPoco Limitations</a></q><br/>
+        <p>Activity on the project is low..maybe it is perfect! :)</p><br/>
+        <p></p><br/>
+    </div>
+     <div class="step slide" data-x="9000" data-y="-1500">
+        <q><a href="https://github.com/robconery/massive">Massive</a></q><br/>
+        <p>by Rob Conery</p><br/>
+        <p>Deserializes expando into sql</p><br/>
+        <p>Inspired by Microsoft.Data</p><br/>
+        <p>Supports: SqlServer, ORACLE,PostGreSQL</p><br/>
+        <p>Test Drive it..</p>
+    </div>
+     <div class="step slide" data-x="10000" data-y="-1500">
+        <q><a href="https://github.com/robconery/massive">Massive Limitations</a></q><br/>
+        <p>It's Dynamic Yo...</p><br/>
+        <p>Learning curve is there</p><br/>
+        <p>No Nuget for some reason</p><br/>
+    </div>
+    <div class="step slide" data-x="11000" data-y="-1500">
+        <q><a href="https://github.com/markrendle/Simple.Data">Simple.Data</a></q><br/>
+        <p>Whole new cool DSL based on dynamic</p><br/>
+        <p>Database supported: SqlServer, ORACLE,PostGreSQL and MongoDB!</p><br/>
+        <p>Out of the box testing support with MockHelper</p><br/>
+        <p>Test Drive it..</p>
+    </div>
+     <div class="step slide" data-x="12000" data-y="-1500">
+       <q><a href="https://github.com/markrendle/Simple.Data">Simple.Data Limitations</a></q><br/>
+        <p>It's Dynamic Yo Yo Yo.....</p><br/>
+        <p>Steeper learning curve</p><br/>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>Other options..</p>
+        <p><a href="https://github.com/ServiceStack/ServiceStack.OrmLite">ORMLite (Service Stack)</a></p>
+        <p><a href="http://amirrajan.github.io/Oak/">Cambium (OAK)</a></p>
+    </div>
+ 
+    <div id="its-in-3d" class="step" data-x="6400" data-y="4700" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">Use</span> <span class="you">whatever</span> <span class="noticed">makes</span> <span class="its">you</span> <span class="in">happy!</span></p>
+        <span class="footnote"></span>
+    </div>
+
+    <div id="Div1" class="step" data-x="6900" data-y="5400" data-z="-100" data-rotate-x="-50" data-rotate-y="20" data-scale="2">
+        <p><span class="have">Questions</span> <span class="you">?</span> </p>
+        <p> <span class="noticed">Connect</span> <span class="its">with</span> <span class="in">me on Twitter: <a href="https://twitter.com/y09i">@y09i</a></span> </p>
+        <span class="footnote"></span>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
